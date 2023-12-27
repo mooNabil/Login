@@ -1,0 +1,17 @@
+body {
+    background-color: #24353f;
+    color: #fff;
+}
+
+
+.imgStyle {
+
+    width: 400px;
+    height: 250px;
+}
+
+
+.btn-style {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+}

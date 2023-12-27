@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="signInCard" class="signInCard d-flex flex-column align-items-center w-75 p-5 m-5">
+            <h1>Smart Login System</h1>
+            <input type="text" name="loginEmail" id="loginEmail" placeholder="Enter Your Email"
+                class="form-control my-3">
+            <input type="password" name="LoginPassword" id="LoginPassword" placeholder="Enter Your password"
+                class="form-control my-3">
+            <span class="text-danger" id="warning"></span>
+            <a href="./page.html" id="login" class="form-control my-3 text-center"> Login </a>
+            <p> Don’t have an account? <button id="register" class="bg-transparent border-0">Sign Up</button> </p>
+        </div>
+
+        <div id="signUpCard" class="signUpCard d-flex flex-column align-items-center w-75 p-5 m-5 d-none">
+            <h1>Smart Login System</h1>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form-control my-2">
+            <input type="text" name="email" id="signUpEmail" placeholder="Enter Your Email" class="form-control my-2">
+            <input type="password" name="password" id="signUpPassword" placeholder="Enter Your password"
+                class="form-control my-2">
+            <span class="text-danger" id="warningSignUp"></span>
+            <button id="signUp" class="form-control my-3">Sign Up</button>
+            <p> You have an account? <button id="signIn" class="bg-transparent border-0"> Sign in</button> </p>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
